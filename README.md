@@ -23,7 +23,5 @@ sendWebhook("webhook link", [
                 "Higher Up" => Server::getInstance()->isOp($player->getName()) ? "true" : "false",
                 "Join" => $player->getName() . " has connected",
                 "Time" => "Login | " . date('d/m/y h:i:s'),
-                ,
-                ,
             ]);
 ```
