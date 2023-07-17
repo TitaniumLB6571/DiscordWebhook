@@ -4,8 +4,8 @@ declare(strict_types = 1);
 
 namespace DiscordWebhook\task;
 
-use libs\CortexPE\DiscordWebhookAPI\Message;
-use libs\CortexPE\DiscordWebhookAPI\Webhook;
+use DiscordWebhook\Message;
+use DiscordWebhook\Webhook;
 use pocketmine\scheduler\AsyncTask;
 use pocketmine\Server;
 use pocketmine\thread\NonThreadSafeValue;
